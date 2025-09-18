@@ -2,6 +2,8 @@
 Author : Jake Isaac Harvey / JackInDaBean
 --------------------------------------------
 
+Copyright (C) Jake Isaac Harvey 2025
+
 ---------------------------------
 CSV Employee Timesheet Calculator:
 ---------------------------------
@@ -10,13 +12,16 @@ The goal of this program is to be able to open a CSV file, iterate through the d
 -------------
 How It's Made:
 -------------
-Tech used: Python
+Tech used: Python, Tkinter, Pandas, sys
 
 -------------
 Optimisations:
 -------------
-
+Used the groupby() method within pandas to cut down a 30 line algorithm to a 4 line module.
 
 ---------------
 Lessons Learned:
 ---------------
+Learnt to read the documentation regarding a library before attempting to use it - spent a week writing a long algorithm to sort through two columns simultaneously and grab data from both which was completely unnecessary as already pandas contains a function that does said task.
+
+Learnt how to use Tkinter to create an incredibly basic GUI window, with buttons - also learnt to use openfile and askfilesavename dialogues to get the user to open and save files through a mouse click as opposed to a command line input.
