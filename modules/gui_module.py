@@ -7,7 +7,7 @@ class programGUI:
     """ GUI for the main program """
     def __init__(self, title = "CSV TimeSheet Calculator", width = 200, height = 75):
         self.root = tk.Tk()
-        self.root.title = ("CSV TimeSheet Calculator")
+        self.root.title("CSV TimeSheet Calculator")
         self.root.geometry(f"{width}x{height}")
 
         self.root.maxsize(width = 200, height = 150)
@@ -52,3 +52,4 @@ def save_text_file(finalData):
                     file.write(finalData)
             except Exception as e:
                 print("ERROR")
+
