@@ -26,4 +26,8 @@ Learnt to read the documentation regarding a library before attempting to use it
 
 Learnt how to use Tkinter to create an incredibly basic GUI window, with buttons - also learnt to use openfile and askfilesavename dialogues to get the user to open and save files through a mouse click as opposed to a command line input.
 
+Learnt how to setup a class for GUI and call it in a seperate module.
+
 Learnt how to sucessefully read in and write out to files of CSV and TXT types.
+
+Learnt how to setup modules and call them into eachother, with a few lines of code in main so that it cannot be called.
