@@ -48,8 +48,7 @@ def save_text_file(finalData):
         if file_path:
             try:
                 finalData
-
                 with open(file_path, 'w') as file:
                     file.write(finalData)
             except Exception as e:
-                print()
+                print("ERROR")
