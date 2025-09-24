@@ -9,6 +9,11 @@ CSV Employee Timesheet Calculator:
 ---------------------------------
 The goal of this program is to be able to open a CSV file, iterate through the different employee names from within; collect and add up their hours worked whislt subtracting the break times for each employee, outputting a file that has the employee name and their hours worked.
 
+---------------------------------
+Reason for creation:
+---------------------------------
+This was a request from my boss at a restaurant so I wrote this to improve the efficieny of the accounting each week, this saves him roughly 15-30 minutes of admin work, I sold him this software and it is still in active use.
+
 -------------
 How It's Made:
 -------------
